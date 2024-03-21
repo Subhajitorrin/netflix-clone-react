@@ -9,7 +9,7 @@ function Header() {
         <div className="imageContainer">
           <img src="netflixlogo.png" />
         </div>
-        <nav>
+        <nav className="nnavbar">
           <Link to="/">Home</Link>
           <Link to="/tvshows">Tv Shows</Link>
           <Link to="/movies">Movies</Link>
